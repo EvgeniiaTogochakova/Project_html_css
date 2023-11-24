@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url(./fonts/GilroyBold.ttf);
+}
+
+@font-face {
+    font-family: "Gilroy-Regular";
+    src: url(./fonts/GilroyRegular.ttf);
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+.mottos {
+    display: flex;
+    gap: 30px;
+    background: #FFF;
+}
+
+.mottos__motto {
+    background: #FFF;
+    padding: 40px 30px 25px 30px;
+}
+
+.mottos__motto_shadow {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.mottos__motto__heading {
+    color: #000;
+    font-family: "Gilroy-Bold";
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 17px;
+}
+
+.mottos__motto__text {
+    color: #666;
+    font-family: "Gilroy-Regular";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 25px;
+}
+
+.mottos__motto__link {
+    color: #000;
+    font-family: "Gilroy-Bold";
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.middle {
+    background: #FAFAFA;
+    padding-top: 92px;
+    padding-bottom: 55px;
+    text-align: center;
+}
+
+.middle__h2 {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 19px;
+}
+
+.middle__p {
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.advantages {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background: #FAFAFA;
+    padding-bottom: 100px;
+}
+
+.advantages__advantage {
+    background: #FFF;
+    padding-bottom: 50px;
+    text-align: center;
+    padding: 0 30px 50px 30px;
+}
+
+.advantages__advantage_shadow {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+}
+
+.advantages__advantage__image {
+    object-fit: cover;
+}
+
+.advantages__advantage__h3 {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+
+.advantages__advantage__text {
+    color: #AAA;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 39px;
+}
+
+.advantages__advantage__button {
+    padding: 15px 40px;
+    border-radius: 50px;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    background: #F25822;
+    border: none;
+}
+
+.advantages__advantage__button__text {
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 150%;
+
+}
