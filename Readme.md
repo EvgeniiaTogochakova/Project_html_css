@@ -1,5 +1,3 @@
-# Building a website using HTML and CSS. 
+# Project_html_css
 
-Текст задания
-Мы продолжаем работать с проектом из прошлого урока.
-В данном домашнем задании мы будем добавлять стилистику и позиционирование.
+This project is about building a website usind HTML and CSS.
