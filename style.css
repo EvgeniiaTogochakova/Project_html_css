@@ -26,8 +26,8 @@ a {
     display: flex;
     gap: 30px;
     background: #FFF;
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .mottos__motto {
