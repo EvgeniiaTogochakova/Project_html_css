@@ -25,7 +25,7 @@ a {
 .mottos {
     display: flex;
     gap: 30px;
-    background: #FFF;
+    background: lavender;
     padding-top: 100px;
     padding-bottom: 100px;
 }
